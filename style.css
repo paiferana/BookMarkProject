@@ -67,8 +67,8 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: palevioletred;
-    color: #fff;
+    background-color: #EFC9BD;
+    color: black;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -76,7 +76,7 @@ button {
 }
 
 button:hover {
-    background-color: #fe7ecd;
+    background-color: #EFC9BD;
 }
 
 .imagem1 {
