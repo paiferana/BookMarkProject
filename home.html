@@ -4,61 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clubes</title>
-    <link rel="stylesheet" href="stilo.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
 
 <body>
-    <div id="perfil">
-        <div id="perfilUsuario">
+    <section class="perfil">
+        <div class="perfilUsuario">
             <h2>Perfil</h2>
-            <div id="circuloPerfil">
+            <div class="circuloPerfil">
                 <img src="data/Perfil/adalovelace.jpg" alt="Imagem adalovelace">
             </div>
             <h3>Ada Lovelace</h3>
-            <h4 id="id">ID: 1234</h4>
+            <h4 class="id">ID: 1234</h4>
         </div>
-        <div id="hiperlinks">
+        <div class="hiperlinks">
             <a href=""> <!-- inserir aqui pagina de amigos -->
                 <h3>Meus Amigos</h3>
-                <img id="icon" src="data/icons/109617.png" alt="prox pag">
+                <img class="icon" src="data/icons/109617.png" alt="prox pag">
             </a>
             <a href=""> <!-- inserir aqui pagina estante -->
                 <h3>Minha estante</h3>
-                <img id="icon" src="data/icons/109617.png" alt="prox pag">
+                <img class="icon" src="data/icons/109617.png" alt="prox pag">
             </a>
         </div>
         <footer>
             <a href="login.html">
                 <h3>Sair</h3>
-                <img id="icon" src="data/icons/sair.png" alt="sair">
+                <img class="icon" src="data/icons/sair.png" alt="sair">
             </a>
         </footer>
-    </div>
-    <div id="homepage">
+    </section>
+
+    <section class="homepage">
         <div class="logoContainer">
             <img src="data/logo.jpeg" alt="" class="logo">
         </div>
+
         <nav>
             <h2>Meus clubes</h2>
             <a href=""> <!-- inseri link pop up -->
-                <button id="botaodeClube" type="submit">Criar clube</button>
+                <button class="botaodeClube" type="submit">Criar clube</button>
             </a>
         </nav>
-        <div id="Clube1">
-            <img id="livros" src="data/livros/Lua_Nova_livro.jpg" alt="Lua Nova">
-            <div id="conteudoClube">
+
+        <div class="Clube1">
+            <img class="livros" src="data/livros/Lua_Nova_livro.jpg" alt="Lua Nova">
+            <div class="conteudoClube">
                 <h3> Saga Crepusculo: Lua nova</h3>
                 <h3>Faltam</h3>
-                <p id="timer">00:00:00</p>
-                <div id="circuloPerfilClube">
+                <p>00:00:00</p>
+                <div class="circuloPerfilClube">
                     <img src="data/Perfil/Beyonce-1.jpg" alt="Imagem adalovelace">
                 </div>
-                <div id="circuloPerfilClube">
+                <div class="circuloPerfilClube">
                     <img src="data/Perfil/adalovelace.jpg" alt="Imagem adalovelace">
                 </div>
             </div>
         </div>
+    </section>
 </body>
 
 </html>

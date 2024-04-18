@@ -34,7 +34,7 @@ body {
     max-width: 400px;
 }
 
-form {
+.form {
     /*  max-width: 400px;
     margin-right: 20px; */
     /* Espaçamento entre o formulário e a imagem */
@@ -145,80 +145,24 @@ button:hover {
 
 .centralizandoBotoes {
     display: flex;
+    justify-content: center;
 }
 
-#perfil{
-    background-color: #EFC9BD;
 
-}
 
-#perfilUsuario {
-    text-align: center;
-}
 
-#circuloPerfil {
-    width: 156px;
-    height: 156px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto; /* Isso vai centralizar o círculo horizontalmente */
-}
 
-#circuloPerfil img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-#id{
-    color: rgb(94, 93, 93);
-}
 
-#hiperlinks{
-    background-color: #EFC9BD;
-    font: bold;
-}
 
-#icon{
-    width: 1%;
-    height: 1%;
-    align-items: last baseline;
-}
 
-#botaodeClube{
-    background-color: rgb(127, 243, 109);
-    font-size: 100%;
-}
-#Clube1{
-    position: relative;
-    width: 447px;
-    height: 222px;
-    border-radius: 20px;
-    border: 2px solid black;
 
-}
 
-#circuloPerfilClube{
-    position: absolute;
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 0; /* Isso vai centralizar o círculo horizontalmente */
-}
 
-#livros{
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 114px;
-    height: 175px;
-}
 
-#conteudoClube{
-    position: absolute;
-    font-size: 20px;
-    margin: 0 auto;
-    margin-left: 35%;
-    text-align: center;
-}
+
+
+
+
+
+
