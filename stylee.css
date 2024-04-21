@@ -37,7 +37,10 @@ body {
 
 .perfil{
     background-color: #EFC9BD;
-
+    display: grid;
+    column-gap: 3;
+    width: 358px;
+    height: 1038px;
 }
 
 .perfilUsuario {
@@ -67,6 +70,10 @@ body {
     font: bold;
 }
 
+.hiperlinks:active{
+    background-color: black;
+}
+
 .icon{
     width: 1%;
     height: 1%;
@@ -74,6 +81,9 @@ body {
 }
 .homepage{
     display: flex;
+    justify-content: right;
+    width: 1102px;
+    height: 1030px;
 }
 
 .botaodeClube{
