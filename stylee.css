@@ -15,6 +15,10 @@ body {
     font-family: "Bebas regular";
     background-color: white;
     font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .logoContainer {
@@ -37,10 +41,12 @@ body {
 
 .perfil{
     background-color: #EFC9BD;
-    display: grid;
-    column-gap: 3;
-    width: 358px;
-    height: 1038px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 308px;
+    height: max-content;
 }
 
 .perfilUsuario {
@@ -70,10 +76,6 @@ body {
     font: bold;
 }
 
-.hiperlinks:active{
-    background-color: black;
-}
-
 .icon{
     width: 1%;
     height: 1%;
@@ -81,9 +83,10 @@ body {
 }
 .homepage{
     display: flex;
-    justify-content: right;
-    width: 1102px;
-    height: 1030px;
+    flex-direction: row;
+    flex-direction: column;
+    width: max-content;
+    height: auto;
 }
 
 .botaodeClube{
