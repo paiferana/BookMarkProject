@@ -8,7 +8,7 @@
         url('data/fonts/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-
+    
 }
 
 body {
@@ -33,8 +33,39 @@ body {
     right: 25%;
     max-width: 400px;
 }
+.remember {
+    display: flex; /* Usando flexbox para alinhar os elementos na mesma linha */
+    align-items: center; /* Alinhar os itens verticalmente */
+    justify-content: center; /* Centralizando horizontalmente */
+}
 
-.form {
+.checkbox-label {
+    display: flex; /* Usando flexbox para alinhar os itens na mesma linha */
+    align-items: center; /* Alinhar os itens verticalmente */
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 10px; /* Adicionando um espaçamento entre o checkbox e o texto */
+}
+
+.checkbox-label span {
+    white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #EFC9BD; /* Cor de fundo definida como #EFC9BD */
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: black; /* Cor do texto preto */
+    border: none; /* Sem borda */
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+form {
     /*  max-width: 400px;
     margin-right: 20px; */
     /* Espaçamento entre o formulário e a imagem */
@@ -107,7 +138,7 @@ button:hover {
     padding: auto;
     display: flex;
     text-align: center;
-    border: 1px;
+    border: 1px ;
     margin: 5%;
 
 }
@@ -115,10 +146,10 @@ button:hover {
 .login {
     flex: 1;
     padding: auto;
-
+   
     margin: 100px;
     text-align: center;
-
+  
 }
 
 .imagem {
@@ -129,7 +160,7 @@ button:hover {
 
 .imagem img {
     max-width: 100%;
-
+    
 }
 
 .balao {
@@ -145,24 +176,5 @@ button:hover {
 
 .centralizandoBotoes {
     display: flex;
-    justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
