@@ -1,3 +1,10 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
@@ -7,6 +14,7 @@ body {
     justify-content: space-between;
 
 }
+
 
 .logoContainer {
     margin-top: 5%;
@@ -38,6 +46,7 @@ body {
 
 .perfilUsuario {
     text-align: center;
+    font-size: 20px;
 }
 
 .circuloPerfil {
@@ -60,13 +69,20 @@ body {
 
 .hiperlinks{
     background-color: #EFC9BD;
-    font: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
 }
 
 .icon{
     width: 1%;
     height: 1%;
     align-items: last baseline;
+    margin-left: 100000px;
 }
 .homepage{
     display: flex;
@@ -77,12 +93,32 @@ body {
 }
 
 .novoAmigo{
-    
+    margin-right: 10px;
+    padding: 0px;
+    display: flex;
 }
 
 .digiteId{
     background-color: rgba(184, 184, 184, 0.712);
-    width: 1000px;
+    width: 700px;
     height: 30px;
-    
+    border-radius: 5px;
+}
+
+.Amigocontainer{
+    display: flex;
+    margin-right: 200px;
+}
+
+.Adicionar{
+    background-color: #EFC9BD;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-left: 10px;
+
+    font-size: 15px;
+    cursor: pointer;
+    transition: scale 0.2s ease-in;
 }
