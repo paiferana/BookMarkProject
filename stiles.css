@@ -17,7 +17,7 @@ body {
 
 
 .logoContainer {
-    margin-top: 5%;
+    margin-top: 5px;
     display: flex;
     justify-content: center;
 }
@@ -100,7 +100,7 @@ footer{
 
 .digiteId{
     background-color: rgba(184, 184, 184, 0.712);
-    width: 700px;
+    width: 900px;
     height: 30px;
     border-radius: 5px;
 }
@@ -108,6 +108,7 @@ footer{
 .Amigocontainer{
     display: flex;
     margin-right: 200px;
+    justify-content: center;
 }
 
 .Adicionar{
@@ -121,4 +122,36 @@ footer{
     font-size: 15px;
     cursor: pointer;
     transition: scale 0.2s ease-in;
+}
+
+.meusAmigos{
+    margin-top: px;
+    margin-left: 64px;
+}
+
+.iconBox{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.box{
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxAmigo{
+    display: flex;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 1250px;
+    margin-bottom: 900px;
 }
