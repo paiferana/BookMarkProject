@@ -52,14 +52,10 @@ body {
 .hiperlinks {
     background-color: #EFC9BD;
     font: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
-
-.icon {
-    width: 1%;
-    height: 1%;
-    align-items: last baseline;
-}
-
 
 nav {
     display: flex;
@@ -77,22 +73,24 @@ nav {
     border: color #7ff36d;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 10px;
-    
+
 }
-.elemento{
+
+.elemento {
     width: 447px;
     height: 222px;
     border: 3px solid black;
     border-radius: 10px;
     margin-right: 20px;
 }
-.conteudo{
+
+.conteudo {
     position: absolute;
     font-size: 20px;
     margin: 0 auto;
@@ -100,7 +98,7 @@ nav {
     text-align: center;
 }
 
-.livros{
+.livros {
     position: absolute;
     margin-top: 20px;
     margin-left: 20px;
@@ -116,4 +114,32 @@ nav {
 .logo {
     width: 250px;
     height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.no-hover {
+    pointer-events: none;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sair {
+    display: block;
+    margin-top: 320px;
+}
+
+.imagens {
+    display: flex;
+    width: 30px;
+}
+.link{
+    display: flex;
 }
