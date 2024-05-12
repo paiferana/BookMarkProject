@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+}
+
+.flatImage {
+  position: absolute;
+  right: 25%;
+  max-width: 40px;
+}
+
+
+.perfil{
+  background-color: #EFC9BD;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 308px;
+  height: max-content;
+}
+
+.perfilUsuario {
+  text-align: center;
+}
+
+.circuloPerfil {
+  width: 156px;
+  height: 156px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto; /* Isso vai centralizar o círculo horizontalmente */
+}
+
+.circuloPerfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.id{
+  color: rgb(94, 93, 93);
+}
+
+
+
+body {
+  background-color: white; 
+  min-height: 100vh;
+  display: flex;
+  text-decoration: none;
+}
+
+.hiperlinks a.estanteLink{
+  text-decoration: none;
+  color: black;
+}
+.hiperlinks a.amigosLink{
+  text-decoration: none;
+  color: black;
+}
+.hiperlinks a.clubesLink{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  
+}
+
+.hiperlinks{
+  justify-content: space-between;
+}
+
+footer a.sair{
+  text-decoration: none;
+  color: black;
+
+}
+
+footer {
+  margin-top: 10rem;
+}
+
+.user-img {
+  border-radius: 60%; 
+  align-items: center;
+  width: 100px; 
+  height: 100px; 
+  margin: 25px;
+  justify-content: center;
+}
+
+.id{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  text-align: center;
+
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EFC9BD;
+  width: 25%;
+  min-width: 100px;
+  min-height: 100px;
+  padding: 12px;
+  gap: 120px;
+  text-decoration: none;
+
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+button{
+  border-radius: 5%;
+  width: 70%;
+  cursor: pointer;
+  margin: 5px;
+  padding: 15px;
+}
+
+.box {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.box-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  color: #fff;
+  position: relative;
+  background-color: #EFC9BD;
+  width: 20rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-item > img{
+  width: 5rem;
+  height: 10rem;
+  margin: 1rem;
+}
+
+.box-item > p {
+  font-size: 12px;
+}
+
+.text{
+  margin-top: 10rem;
+}
+
+.out{
+  margin-top: 15rem;
+}
