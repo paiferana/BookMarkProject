@@ -1,13 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
 }
 
+
 .logo {
-  width: 250px;
+  width: 225px;
   height: auto;
+  margin-left: 35rem;
 }
 
 .flatImage {
@@ -49,7 +60,27 @@
   color: rgb(94, 93, 93);
 }
 
+.resenhas{
+  margin-left: 2rem;
+}
 
+nav {
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-between;
+  /* Isso fará com que os itens se distanciem nas extremidades da nav */
+  align-items: baseline;
+  margin: 0 12px;
+}
+
+.botaoAddResenha {
+  background-color: #EFC9BD;
+  font-size: 100%;
+  border-radius: 20px;
+  border: color #000000;
+  width: 150px;
+  height: 50px;
+}
 
 body {
   background-color: white; 
@@ -61,19 +92,23 @@ body {
 .hiperlinks a.estanteLink{
   text-decoration: none;
   color: black;
+  margin-bottom: 20px;
 }
 .hiperlinks a.amigosLink{
   text-decoration: none;
   color: black;
+  margin-top: 20px;
 }
 .hiperlinks a.clubesLink{
   text-decoration: none;
   color: rgb(0, 0, 0);
+  margin-top: 10px;
   
 }
 
 .hiperlinks{
   justify-content: space-between;
+
 }
 
 footer a.sair{
@@ -107,7 +142,7 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: #EFC9BD;
-  width: 25%;
+  width: 40%;
   min-width: 100px;
   min-height: 100px;
   padding: 12px;
@@ -148,18 +183,22 @@ button{
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 1rem;
-  color: #fff;
+  margin-bottom: 3rem;
+  color: black;
   position: relative;
-  background-color: #EFC9BD;
-  width: 20rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  background-color: white;
+  height: 15rem;
+  width: 30rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 3rem;
+  border-radius: 7px;
+  border: 3px solid black;
 }
 
 .box-item > img{
-  width: 5rem;
-  height: 10rem;
+  width: 6rem;
+  height: 11rem;
   margin: 1rem;
 }
 
