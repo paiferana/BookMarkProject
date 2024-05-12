@@ -12,37 +12,14 @@
 }
 
 body {
+    display: flex;
     font-family: "Bebas regular";
     background-color: white;
     font-size: 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
 }
 
-.logoContainer {
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    width: 400px;
-    height: auto;
-}
-
-.flatImage {
-    position: absolute;
-    right: 25%;
-    max-width: 400px;
-}
-
-
-.perfil{
+.perfil {
     background-color: #EFC9BD;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
     width: 308px;
@@ -58,7 +35,8 @@ body {
     height: 156px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 0 auto; /* Isso vai centralizar o círculo horizontalmente */
+    margin: 0 auto;
+    /* Isso vai centralizar o círculo horizontalmente */
 }
 
 .circuloPerfil img {
@@ -67,40 +45,59 @@ body {
     object-fit: cover;
 }
 
-.id{
+.id {
     color: rgb(94, 93, 93);
 }
 
-.hiperlinks{
+.hiperlinks {
     background-color: #EFC9BD;
     font: bold;
 }
 
-.icon{
+.icon {
     width: 1%;
     height: 1%;
     align-items: last baseline;
 }
-.homepage{
+
+
+nav {
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    /* Isso fará com que os itens se distanciem nas extremidades da nav */
+    align-items: baseline;
+    margin: 0 10px;
+}
+
+.botaodeCriarClube {
+    background-color: #7ff36d;
+    font-size: 100%;
+    border-radius: 20px;
+    border: color #7ff36d;
+}
+
+.container{
     display: flex;
     flex-direction: row;
-    flex-direction: column;
-    width: max-content;
-    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    
 }
-
-.botaodeClube{
-    background-color: rgb(127, 243, 109);
-    font-size: 100%;
-}
-
-.Clube1{
-    position: relative;
+.elemento{
     width: 447px;
     height: 222px;
-    border-radius: 20px;
-    border: 2px solid black;
-
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.conteudo{
+    position: absolute;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-left: 210px;
+    text-align: center;
 }
 
 .livros{
@@ -111,19 +108,12 @@ body {
     height: 175px;
 }
 
-.conteudoClube{
-    position: absolute;
-    font-size: 20px;
-    margin: 0 auto;
-    margin-left: 35%;
-    text-align: center;
+.logoContainer {
+    display: flex;
+    justify-content: center;
 }
 
-.circuloPerfilClube{
-    position: absolute;
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 0; /* Isso vai centralizar o círculo horizontalmente */
+.logo {
+    width: 250px;
+    height: auto;
 }
