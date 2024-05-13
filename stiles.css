@@ -37,14 +37,25 @@ height: max-content;
 
 .perfilUsuario {
 text-align: center;
+margin-top: 30px;
 }
+
+.perfilUsuario > h2{
+    margin-bottom: 20px;
+}
+
+.perfilUsuario > h3{
+    margin-top: 20px;
+}
+
+
 
 .circuloPerfil {
 width: 156px;
 height: 156px;
 border-radius: 50%;
 overflow: hidden;
-margin: 0 auto; /* Isso vai centralizar o círculo horizontalmente */
+margin: 0 auto;
 }
 
 .circuloPerfil img {
@@ -65,7 +76,6 @@ nav {
 display: flex;
 align-items: last baseline;
 justify-content: space-between;
- /* Isso fará com que os itens se distanciem nas extremidades da nav */
 align-items: baseline;
 margin: 0 12px;
 }
@@ -81,24 +91,30 @@ text-decoration: none;
 text-decoration: none;
 color: black;
 margin-bottom: 20px;
+font-size: 19px;
 }
 
 .hiperlinks a.amigosLink{
 text-decoration: none;
 color: black;
-margin-top: 20px;
+padding: 10px;
+font-size: 19px;
 }
 
 .hiperlinks a.clubesLink{
 text-decoration: none;
 color: rgb(0, 0, 0);
 margin-top: 10px;
+padding: 10px;
+font-size: 19px;
 }
 
 .hiperlinks{
 justify-content: space-between;
 
 }
+
+
 
 footer a.sair{
 text-decoration: none;
@@ -130,7 +146,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 background-color: #EFC9BD;
-width: 40%;
+width: 17.85%;
 min-width: 100px;
 min-height: 100px;
 padding: 12px;
@@ -144,14 +160,6 @@ display: flex;
 flex: 1;
 }
 
-button{
-border-radius: 5%;
-width: 70%;
-cursor: pointer;
-margin: 5px;
-padding: 15px;
-}
-
 .box {
 background-color: white;
 width: 100%;
@@ -163,25 +171,22 @@ justify-content: center;
 align-items: center;
 }
 
-
-
-
 .box-item{
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-evenly;
-margin-bottom: 1rem;
+margin-bottom: 150rem;
 color: black;
 position: relative;
 background-color: white;
 height: 10rem;
 width: 20rem;
-margin-top: 2rem;
+margin-top: 5rem;
 margin-left: 5rem;
-margin-right: 3rem;
+margin-right: 1rem;
 border-radius: 7px;
-border: 3px solid black;
+border: 2px solid black;
 }
 
 .box-item > img{
@@ -190,8 +195,8 @@ height: 6rem;
 margin: 1rem;
 }
 
-.box-item > p {
-font-size: 12px;
+.box-item > h5 {
+font-size: 15px;
 }
 
 .text{
@@ -210,7 +215,7 @@ margin-top: 15rem;
     font-size: 20px;
 }
 
-.digiteId{
+.digiteId input{
     background-color: rgba(184, 184, 184, 0.712);
     width: 900px;
     height: 30px;
@@ -229,15 +234,17 @@ margin-top: 15rem;
     width: 100%;
     padding: 7px;
     background-color: #EFC9BD;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     border: 1px solid #000000;
     border-radius: 4px;
     cursor: pointer;
+    transition: transform 0.2s ease-in;
+    margin-left: 10px;
 }
 
 .meusAmigos{
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 110px;
     font-size: 20px;
 }
