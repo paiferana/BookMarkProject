@@ -1,19 +1,9 @@
-@font-face {
-    font-family: "Bebas regular";
-    src: url('data/fonts/BebasNeue-Regular.eot');
-    src: url('data/fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
-        url('data/fonts/BebasNeue-Regular.woff2') format('woff2'),
-        url('data/fonts/BebasNeue-Regular.woff') format('woff'),
-        url('data/fonts/BebasNeue-Regular.ttf') format('truetype'),
-        url('data/fonts/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-}
 
 body {
     display: flex;
-    font-family: "Bebas regular";
+    font-family: "Montserrat";
     background-color: white;
     font-size: 24px;
 }
@@ -78,7 +68,7 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-left: 30px;
 
 }
 
@@ -87,14 +77,14 @@ nav {
     height: 222px;
     border: 3px solid black;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .conteudo {
     position: absolute;
     font-size: 20px;
     margin: 0 auto;
-    margin-left: 210px;
+    margin-left: 150px;
     text-align: center;
 }
 
