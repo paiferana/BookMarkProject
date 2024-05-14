@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style - Copia.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logoContainer">
+            <img src="data/logo.jpeg" alt="" class="logo">
+        </div>
+        <div class="title"><h1>Junte-se ao nosso clube e <br>embarque em uma <span>aventura literária</span></h1></div>
+    </header>
+
+    <div>
+        <img src="data/imglogin.avif" alt="" class="flatImage">
+    </div>
+
+    <form action="/submit" method="post">
+        <div class="container">
+            <div class="form-group">
+                <label for="full-name">Nome completo:</label>
+                <input type="text" id="full-name" placeholder="Digite seu nome completo" name="full-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" name="e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirme a Senha:</label>
+                <input type="password" id="confirm-password" placeholder="Digite sua senha novamente" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    Eu aceito os termos de contrato
+                </label>
+            </div>
+            <a href="login.html"> <button type="submit">Cadastrar
+            </button>
+        </a> 
+        </div>
+    </form>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024, BookMark. Todos os direitos autorais reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
