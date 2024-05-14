@@ -1,5 +1,10 @@
-window.onload = function() {
-    console.log("O script foi carregado com sucesso!");
-    // Se você quiser adicionar comportamento dinâmico ao seu site,
-    // pode escrever seu código JavaScript aqui.
-};
+function validarFormulario() {
+    var senha = document.getElementById("password").value;
+    var confirmarSenha = document.getElementById("confirm-password").value;
+
+    if (senha !== confirmarSenha) {
+        alert("As senhas não coincidem.");
+        return false;
+    }
+    return true;
+}
