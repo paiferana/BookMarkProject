@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Mont;
+    src: url('data/fonts/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: bold;
+}
+
+body {
+    font-family: "Mont";
+    font-style: bold;
+    background-color: white;
+    cursor: pointer;
+    height: 1000px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.title >h1 {
+    color: #282626;
+    font-family: sans-serif;
+    font-weight: 40px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.title >h1>span {
+    color: indianred;
+}
+
+.flatImage {
+    position: absolute;
+    right: 15%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 1%;
+}
+
+form {
+    max-width: 400px;
+    height: auto;
+    margin-right: 10px; /* Espaçamento entre o formulário e a imagem */
+    padding-left: 35px;
+    padding-top: 50px;
+    border-radius: 18px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+label {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+input[type="text"],
+input[type="email"], 
+input[type="password"]  {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #EFC9BD;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #EFC9BD;
+}
+
+.footer {
+    background-color: #c4b0b0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40%;
+}
+
+/* Dentro da media query */
+@media screen and (max-width: 400px) {
+    .flatImage {
+        position: relative;
+        max-width: 300px;
+        right: 0;
+        left: 10%;
+    }
+}
