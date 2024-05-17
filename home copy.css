@@ -67,9 +67,8 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-left: 30px;
-    padding-top: 20px;
 
 }
 
@@ -79,7 +78,6 @@ nav {
     border: 3px solid black;
     border-radius: 10px;
     margin-right: 30px;
-    margin-bottom: 20px;
 }
 
 .conteudo {
