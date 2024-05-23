@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CriandoGrupo</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="CriandoGrupo.css">
 
 </head>
 <body>
@@ -40,21 +40,41 @@
             </div>
         </footer>
     </section>
-    <div class="infos">
-        <div class="logoContainer">
+
+
+        <nav class="logoContainer">
             <img src="data/logo.jpeg" alt="" class="logo">
-        </div>
-        <nav>
-            <h2>Novo Clube</h2>
-            <a href="home1.html"> <!-- inseri link pop up -->
-                <button class="botaodeCriarClube" type="submit">Cadastrar Clube</button>
-            </a>
         </nav>
+
+
+        <div class="criarClube">
+            <h2>Criar Clube</h2>
+            <h3>Nome do Clube</h3>
+            <form action="/submit" method="post" class="form">
+                <input type="text" name="id">
+            </form>
+            <h3>Data Limite de Leitura</h3>
+            <form action="/submit" method="post" class="form">
+                <input type="text" name="id">
+            </form>
+            <h3>Nome do Livro</h3>
+            <form action="/submit" method="post" class="form">
+                <input type="text" name="id">
+            </form>
+            <h3>ID dos Integrantes</h3>
+            <form action="/submit" method="post" class="form">
+                <input type="text" name="id">
+            </form>
+
+            <a href="home1.html"> <!-- inseri link pop up -->
+                <button class="botaodeCriarClube" type="submit">CONCLUIDO</button>
+            </a>
+        </div>
         <form action="">
             
 
         </form>
        
-    </div>
+
 </body>
 </html>
