@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #EFC9BD;
+    align-items: center;
+}
+
+
+.Form logo{
+    max-width: 100%; 
+    max-height: 100%; 
+    width: 500px;
+}
+.container {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    width: 800px;
+    padding: 80px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Form{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form img{
+    max-width: 100%; 
+    max-height: 100%; 
+    width: 90px;
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 50%;
+}
+
+.Div2 img{
+    max-width: 100%; 
+    max-height: 100%; 
+    width: 250px;
+}
+
+.Form h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+.myform {
+    margin-bottom: 20px;
+}
+
+
+.myform input {
+    width: 20rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.butoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.botaoEntrar {
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.botaoCadastrar{
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-left: 2rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.botaoEntrar:hover {
+    color: rgb(0, 0, 0);
+    background-color: #EFC9BD;
+}
+
+.botaoCadastrar:hover {
+    color: rgb(0, 0, 0);
+    background-color: #EFC9BD;
+}
+
+.Cadastrar h2{
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+    
+}
+
+.Cadastrar p{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 3px;
+}
+
+.Form{
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px; 
+}
+
+.btn-Cadastrar{
+    width: 60%;
+    padding: 10px;
+    margin-left: 3rem;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.btn-Cadastrar:hover{
+    color: rgb(0, 0, 0);
+    background-color: gray;
+}
