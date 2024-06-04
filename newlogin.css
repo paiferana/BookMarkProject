@@ -1,160 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Mont";
+    src: url(data/fonts/Montserrat-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
 }
 
+html, body {
+    font-family: "Mont";
+    width: 100%;
+    height: 100%;
+    background-color: #EFC9BD;
+}
 
-main {
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.formularyContent {
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-}
-
-body {
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: #EFC9BD;
-    align-items: center;
-}
-
-
-.Form logo{
-    max-width: 100%; 
-    max-height: 100%; 
-    width: 500px;
-}
-.container {
-    align-items: center;
-    box-sizing: border-box;
-    display: flex;
+    background-color: white;
+    border-radius: 20px;
     width: 800px;
-    padding: 80px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); 
 }
 
-.Form{
-    width: 100px;
-    justify-content: center;
-    align-items: center;
-}
-
-.Form img{
-    max-width: 100%; 
-    max-height: 100%; 
-    width: 90px;
-    display: block; 
-    margin: 0 auto; 
-    border-radius: 50%;
-}
-
-.Div2 img{
-    max-width: 100%; 
-    max-height: 100%; 
-    width: 250px;
-}
-
-.Form h2 {
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-    color: black;
-}
-
-
-.myform {
-    margin-bottom: 20px;
-}
-
-
-.myform input {
-    width: 20rem;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-
-.butoes{
+.formulary {
+    position: absolute;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
 }
 
+.container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    overflow: hidden;
+}
 
-.botaoEntrar {
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    padding: 10px;
-    background-color: black;
-    color: white;
+.imgBook {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h2 {
+    width: 80%;
+    text-align: center;
+}
+
+.icon {
+    width: 20%;
+}
+
+.userInput {
+    font-size: 0.7em;
+    font-family: "Mont";
     font-weight: bold;
-    border-radius: 7px;
-    cursor: pointer;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 5px;
+    width: 70%;
+    height: 30px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px black solid;
+    outline: none;
 }
 
-.botaoCadastrar{
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    padding: 10px;
-    background-color: white;
+input::placeholder {
+    color: black;
+}
+
+#email {
+    margin-top: 25px;
+}
+
+#senha {
+    margin-top: 15px;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.buttonLogin {
+    font-size: 0.7em;
+    font-family: "Mont";
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: black;
+    transition: scale 0.2s ease;
+}
+
+.buttonLogin:hover {
+    scale: 1.05;
+}
+
+#buttonOk {
+    background-color: transparent;
+    border: 2px black solid;
     color: black;
     font-weight: bold;
-    margin-left: 2rem;
-    border-radius: 7px;
-    cursor: pointer;
-}
-
-.botaoEntrar:hover {
-    color: rgb(0, 0, 0);
-    background-color: #EFC9BD;
-}
-
-.botaoCadastrar:hover {
-    color: rgb(0, 0, 0);
-    background-color: #EFC9BD;
-}
-
-.Cadastrar h2{
-    margin-left: 6rem;
-    margin-bottom: 2rem;
-    
-}
-
-.Cadastrar p{
-    margin-top: 3rem;
-    margin-left: 1rem;
-    margin-bottom: 3px;
-}
-
-.Form{
-    flex: 1;
-    padding: 10px;
-    margin-right: 10px; 
-}
-
-.btn-Cadastrar{
-    width: 60%;
-    padding: 10px;
-    margin-left: 3rem;
-    background-color: orange;
-    color: white;
-    font-weight: bold;
-    border-radius: 7px;
-    border: 3px solid white;
-    cursor: pointer;
-}
-.btn-Cadastrar:hover{
-    color: rgb(0, 0, 0);
-    background-color: gray;
 }
