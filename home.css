@@ -181,3 +181,8 @@ nav a::after {
 .main h2{
     margin-top: 45px;
 }
+
+.href{
+    text-decoration: none;
+    color: inherit;
+}
