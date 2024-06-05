@@ -1,82 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Amigos</title>
+    <title>Bookmark</title>
     <link rel="stylesheet" href="amigos.css">
 </head>
 <body>
-    <section class="main">
-        <section class="sidebar">
-
-            <div class="perfilUsuario">
-                <h2>Perfil</h2>
-
-                <div class="circuloPerfil">
-                    <img src="data/Perfil/persona1.jpg" alt="Imagem adalovelace">
-                </div>
-
-                <h3>user name</h3>
-                <h4 class="id">ID: 1234</h4>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <p>Perfil</p>
+                <div class="profile-pic"></div>
+                <p>Julia Oliveira</p>
+                <a href="#">ID: 1234</a>
             </div>
-
-            <div class="hiperlinks">
-
-                    <a href="resenha.html" class="estanteLink">
-                        <h3>Minha Estante</h3>
-                    </a>
-                    <a href="home.html" class="clubesLink">
-                        <h3>Clubes Literários</h3>
-                    </a>
-            </div>
-            <footer>
-                <a href="index.html" class="sair">
-                    <h3>Sair</h3>
-
-                </a>
-            </footer>
-        </section>
-
-
-        <section class="homepage">
-            <div class="logoContainer">
-                <img src="data/logo.jpeg" alt="" class="logo">
-            </div>
-
-
             <nav>
-                <div class="Amigocontainer"> 
-                    <div class="novoAmigo">
-                        <h4>Novo Amigo</h4>
-                    </div>
-                    
-                    <form action="/submit" method="post" class="digiteId">
-                        <input type="text" name="id">
-                    </form>
-
-                    <button class="Adicionar" onclick="window.location.href='amigos2.html'">ADICIONAR</button>
-
-                </div>
-        </nav>
-
-        <div class="meusAmigos"><h4>Meus Amigos</h4></div>
-
-            <HR></HR>    
-
-            <div class="box">
-                <div class="box-item">
-                    <img src="data/Perfil/3607444.png" alt="">
-                    <h5>Jessica Honorato</h5>
-                </div>
-
+                <a href="home.html">Meus Clubes</a>
+                <a href="resenhas.html">Minha Estante</a>
+                <a href="amigos1.html">Meus Amigos</a>
+            </nav>
+    
+            <div class="logout">
+                <a href="index.html">Sair</a>
+            </div>
         </div>
-    </section>
 
-    </section>
+        <main class="main-content">
+            <header class="header">
 
 
+                <div class="new-friend">
+                    <label for="nome">Novo Amigo:</label>
+                    <input type="text" placeholder="id">
+                    <a href="amigos2.html"><button  class="add-btn">Adicionar</button></a>
+
+                </div>
+
+            </header>
+            <hr>
+
+            <br>
+
+            <div class="textAmg">
+                <h2>Amigos:</h2>
+            </div>
+
+
+            <section class="friends-list">
+                <div class="friend">
+                    <div class="friend-avatar">SO</div>
+                    <div class="friend-info">
+                        <p class="friend-name">Sarah Oliveira</p>
+                        <p class="friend-id">ID: 5678</p>
+                    </div>
+
+                </div>
+
+
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
-
 </html>

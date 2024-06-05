@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face {
-    font-family: "Mont";
-    src: url(data/fonts/Montserrat-Regular.ttf);
-}
 
 * {
     margin: 0;
@@ -12,7 +8,7 @@
 }
 
 html, body {
-    font-family: "Mont";
+    font-family: "Montserrat", sans-serif;
     width: 100%;
     height: 100%;
     background-color: #EFC9BD;
