@@ -1,69 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CriandoGrupo</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="CriandoGrupo.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
-    <section class="perfil">
-        <div class="perfilUsuario">
-            <h2>Perfil</h2>
-            <div class="circuloPerfil">
-                <img src="data/Perfil/persona1.jpg" alt="Imagem adalovelace">
-            </div>
-            <h3>Ada Lovelace</h3>
-            <h4 class="id">ID: 1234</h4>
-        </div>
-        <div class="hiperlinks">
-            <div class="link">
-                <a href="amigos1.html"> <!-- inserir aqui pagina de amigos -->
-                    <h3>Meus Amigos</h3>
-                    <!-- <img class="imagens" src="data/icons/109617.png" alt="prox pag"> -->
-                </a>
-            </div>
-            <div class="link">
-                <a href="resenha.html"> <!-- inserir aqui pagina estante -->
-                    <h3>Minha estante</h3>
-                    <!-- <img class="imagens" src="data/icons/109617.png" alt="prox pag"> -->
-                </a>
+
+    <header>
+        <div class="vertical-margin">
+            <div class="personArea">
+                <div class="iconArea">
+                    <img src="data/Perfil/persona1.jpg" alt="" class="persona">
+                </div>
+                <div class="text">
+                    <div class="name">Ada Lovelace</div>
+                    <div class="id">#2234</div>
+                </div>
+                <i id="options" class="fas fa-bars"></i>
             </div>
         </div>
-        <footer>
-            <div class="link">
-                <a href="index.html">
-                    <h3 class="sair">Sair</h3>
-                    <!-- <img class="imagens" src="data/icons/sair.png" alt="sair"> -->
-                </a>
-            </div>
-        </footer>
-    </section>
+    </header>
+    <div class="home">
+        <a href="home.html">
+            <i class="fas fa-house"></i>
+            <h3>Home</h3>
+        </a>
+    </div>
+    <div class="amigos">
+        <a href="amigos1.html">
+            <i class="fas fa-users"></i>
+            <h3>Meus Amigos</h3>
+        </a>
+    </div>
+    <div class="estante">
+        <a href="resenha.html">
+            <i class="fas fa-book"></i>
+            <h3>Minha estante</h3>
+        </a>
+    </div>
+    <div class="turnBack">
+        <a href="cadastro.html">
+            <i class="fas fa-arrow-left"></i>
+            <h3>Voltar</h3>
+        </a>
+    </div>
 
-
-        <nav class="logoContainer">
-            <img src="data/logo.jpeg" alt="" class="logo">
-        </nav>
-
-
-        <div class="criarClube">
-            <h2>Criar Clube</h2>
-            <h3>Nome do Clube</h3>
+    <div class="criarClube">
+        <h2>Criar Clube</h2>
+        <div class="form-group">
+            <p>Nome do Clube</p>
             <form action="/submit" method="post" class="form">
-                <input type="text" name="id">
+                <input type="text" name="nomeClube" required>
             </form>
-            <h3>Data Limite de Leitura</h3>
+        </div>
+        <div class="form-group">
+            <p>Data Limite de Leitura</p>
             <form action="/submit" method="post" class="form">
-                <input type="text" name="id">
+                <input type="text" name="dataLimite" required>
             </form>
-            <h3>Nome do Livro</h3>
+        </div>
+        <div class="form-group">
+            <p>Nome do Livro</p>
             <form action="/submit" method="post" class="form">
-                <input type="text" name="id">
+                <input type="text" name="nomeLivro" required>
             </form>
-            <h3>ID dos Integrantes</h3>
+        </div>
+        <div class="form-group">
+            <p>ID dos Integrantes</p>
             <form action="/submit" method="post" class="form">
-                <input type="text" name="id">
+                <input type="text" name="idIntegrantes" required>
             </form>
 
             <a href="home1.html"> <!-- inseri link pop up -->
@@ -71,10 +81,11 @@
             </a>
         </div>
         <form action="">
-            
+
 
         </form>
-       
+
 
 </body>
+
 </html>

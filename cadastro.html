@@ -1,62 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style - Copia.css">
-    <script src="script.js"></script>
+
+    <title>login</title>
+    <link rel="stylesheet" href="newlogin.css">
 </head>
 
 <body>
-    <header>
-        <div class="logoContainer">
-            <img src="data/logo.jpeg" alt="" class="logo">
-        </div>
-        <div class="title"><h1>Junte-se ao nosso clube e <br>embarque em uma <span>aventura literária</span></h1></div>
-    </header>
 
-    <div>
-        <img src="data/imglogin.avif" alt="" class="flatImage">
+    <div class="main">
+
+        <div class="formularyContent">
+            <div class="formulary">
+                <div class="logo">
+                    <img src="data/logo.png" alt="">
+                </div>
+
+                <img src="data/user.png" alt="" class="icon">
+
+                <h2>Seja bem-vindo(a) a BookMark!</h2>
+
+                <input class="userInput" type="text" id="email" placeholder="Nome de usuário" required>
+                <input class="userInput" type="password" id="senha" placeholder="Senha" required>
+                <input class="userInput" type="password" id="email" placeholder="Confirmar senha" required>
+                <input class="userInput" type="email" id="senha" placeholder="E-mail" required>
+
+                <div class="buttons">
+                    <a href="home.html"><button class="buttonLogin" type="submit">Cadastrar</button></a>
+                </div>
+
+            </div>
+            <div class="container">
+                <img src="data/livross.jpg" alt="Book" class="imgBook">
+            </div>
+        </div>
     </div>
-
-    <form action="/submit" method="post">
-        <div class="container">
-            <div class="form-group">
-                <label for="full-name">Nome completo:</label>
-                <input type="text" id="full-name" placeholder="Digite seu nome completo" name="full-name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" placeholder="Digite seu e-mail" name="e-mail" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Senha:</label>
-                <input type="password" id="password" placeholder="Digite sua senha" name="password" required>
-            </div>
-            <div class="form-group">
-                <label for="confirm-password">Confirme a Senha:</label>
-                <input type="password" id="confirm-password" placeholder="Digite sua senha novamente" name="confirm-password" required>
-            </div>
-            <div class="form-group">
-                <label>
-                    <input type="checkbox" id="terms" name="terms" required>
-                    Eu aceito os termos de contrato
-                </label>
-            </div>
-            <a href="index.html"> <button type="submit">Cadastrar
-            </button>
-        </a> 
-        </div>
-    </form>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024, BookMark. Todos os direitos autorais reservados.</p>
-        </div>
-    </footer>
-
-</body>
 
 </html>

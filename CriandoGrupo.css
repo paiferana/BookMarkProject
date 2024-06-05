@@ -1,123 +1,159 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: Mont;
+    src: url(data/fonts/Montserrat-Regular.ttf);
+}body {
+    font-family: "Mont";
+    padding: 0;
+    margin: 0;
+}
 
-
-body {
+header {
     display: flex;
-    font-family: "Montserrat";
-    background-color: white;
-    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    position: relative;
 }
 
-.perfil {
-    background-color: #EFC9BD;
-    justify-content: space-between;
-    align-items: stretch;
-    width: 308px;
-    height: max-content;
+.logo {
+    width: 150px;
 }
 
-.perfilUsuario {
-    text-align: center;
+.vertical-margin {
+    background-color: #F8D7DA; /* Cor de fundo rosa */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 290px; 
+    height: 700px;
+    left: 0;
 }
 
-.circuloPerfil {
-    width: 156px;
-    height: 156px;
+.personArea {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 60px; /* Ajuste conforme necessário */
+}
+
+.iconArea {
+    left: 0;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 0 auto;
-    /* Isso vai centralizar o círculo horizontalmente */
 }
 
-.circuloPerfil img {
+.iconArea img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
-.id {
-    color: rgb(94, 93, 93);
+.text {
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
-.hiperlinks {
-    background-color: #EFC9BD;
-    font: bold;
+.id {
+    font-weight: bolder;
+    font-family: "Mont-Bold";
+}
+
+#options {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.home, .amigos, .estante, .turnBack {
+    position: absolute;
+    font-size: 0.9em;
+    font-weight: bold;  
+}
+
+.home {
+    top: 90px;
+    left: 60px;
+}
+
+.amigos {
+    top: 130px;
+    left: 60px;
+}
+
+.estante {
+    top: 170px;
+    left: 60px;
+}
+
+.turnBack {
+    top: 410px;
+    left: 60px;
+}
+
+.home a, .amigos a, .estante a, .turnBack a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.home i, .amigos i, .estante i, .turnBack i {
+    margin-right: 10px;
+}
+
+.criarClube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
-nav {
+.criarClube h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 400px;
+    text-align: left;
     display: flex;
-    align-items: last baseline;
-    justify-content: space-between;
-    /* Isso fará com que os itens se distanciem nas extremidades da nav */
-    align-items: baseline;
-    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-group p {
+    margin-bottom: 3px;
+    color: #333;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 350px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffccdf;
+    box-sizing: border-box;
 }
 
 .botaodeCriarClube {
-    background-color: #EFC9BD;
-    font-size: 100%;
-    border-radius: 20px;
-    margin-top: 30px;
-}
-
-
-.logoContainer {
-    display: flex;
-    justify-content: end;
-}
-
-.logo {
-    width: 250px;
-    height: 150px;
-}
-
-a {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
     text-decoration: none;
-    color: black;
-}
-
-a.no-hover {
-    pointer-events: none;
-}
-
-h3 {
-    margin-left: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.sair {
-    display: block;
-    margin-top: 320px;
-}
-
-.link{
-    display: flex;
-}
-
-h4{
-    justify-content: center;
-}
-
-.criarClube{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-left: 250px;
-}
-
-.criarClube > h3{
     margin-top: 30px;
 }
 
-.form input{
-    background-color: #EFC9BD;
-    width: 500px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 20px;
+.botaodeCriarClube:hover {
+    background-color: #ff3385;
 }
