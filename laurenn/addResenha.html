@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Resenha</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile">
+            <p>Perfil</p>
+            <div class="profile-pic"></div>
+            <p>Lauren Giulia</p>
+            <a href="#">ID: 1234</a>
+        </div>
+        <nav>
+            <a href="#">Meus Clubes</a>
+            <a href="#">Minha Estante</a>
+            <a href="#">Meus Amigos</a>
+        </nav>
+
+        <div class="logout">
+            <a href="#">Sair</a>
+        </div>
+    </div>
+    
+    <main>
+        <div class="container">
+            <h2>Nova Resenha</h2>
+    
+            <form id="contentForm">
+    
+                <div class="myform">
+                    <label for="nome">Nome do livro:</label>
+                    <input  placeholder="" type="text" id="nome" name="nome" required>
+                </div>
+
+                    <div class="texto">                    
+                        <label for="resenha">Resenha:</label>
+                        <textarea placeholder="Faça sua resenha..." name="resenha"></textarea>
+                    </div>
+
+    
+    
+                <div>
+                    <button  class="btnConcluido" type="submit">Concluído</button>
+                </div>
+    
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

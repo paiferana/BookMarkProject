@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: #E7E7E7;
+}
+/* conteudo sidebar*/
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F2D4CA;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    flex-grow: 1; /* Faz com que o nav ocupe o espaço disponível */
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+nav a::after {
+    content: '\2192';
+    margin-left: 5px; /* Adicione o espaçamento entre o texto e a seta conforme necessário */
+}
+
+.logout {
+    margin-top: auto; /* Empurra o botão "Sair" para o final da sidebar */
+    display: flex; /* Ativa o layout flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding-bottom: 20px; /* Adiciona espaço abaixo do botão "Sair" */
+}
+
+.logout a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logout a::after {
+    content: '\2192';
+    margin-left: 10px;
+}
+
+/* conteudo da main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centraliza verticalmente o conteúdo do main */
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #F2D4CA;
+}
+
+.myform {
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.myform label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.myform input {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 94%;
+    height: 100px; /* Define a altura do textarea */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+/* Estilo do botão */
+.btnConcluido{
+    width: calc(107% - 12px);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold; /* Adiciona negrito à fonte */
+    color: black;
+    background-color: #F2D4CA;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 5px;
+}
+
+.btnConcluido:hover {
+    background-color: gray;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.myform input {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.texto label{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
