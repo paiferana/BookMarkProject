@@ -176,9 +176,14 @@ header h1 {
     background-color: #F2D4CA;
     font-size: 100%;
     border-radius: 20px;
-    border: color #000000;
     width: 150px;
     height: 50px;
+    cursor: pointer;
+  }
+
+  .botaoAddResenha:hover{
+    background-color: #ddd;
+    border: 2px black solid;
   }
 
 .nav{

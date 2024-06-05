@@ -167,6 +167,7 @@ nav a::after {
     border-radius: 20px;
     margin-top: 25px;
     margin-left: 35rem;
+    cursor: pointer;
 }
 
 #okButton:hover {
