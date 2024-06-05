@@ -1,6 +1,6 @@
-
 /*sidebar nova*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     display: flex;
     font-family: "Montserrat", sans-serif;
@@ -12,9 +12,7 @@ body {
 header {
     display: flex;
     margin-left: 18rem;
-    height: 90px;
-    position: relative;
-
+    height: 80px;
 }
 
 
@@ -165,25 +163,37 @@ nav a::after {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 20px;
-    margin-top: 25px;
-    margin-left: 35rem;
+    margin-top: 27px;
+    margin-left: 50rem;
     cursor: pointer;
 }
 
 #okButton:hover {
     background-color: #ddd;
-    border: 2px black solid;
     font-weight: bold;
 }
 
 
-
+.header h2{
+    margin-top: 45px;
+    font-size: smaller;
+}
 
 .main h2{
     margin-top: 45px;
+    font-size: smaller;
+
 }
 
 .href{
     text-decoration: none;
     color: inherit;
 }
+
+
+.text{
+    margin-top: 1rem;
+    margin-right: 50px;
+    font-size: smaller;
+}
+

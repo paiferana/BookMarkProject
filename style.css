@@ -174,10 +174,13 @@ header h1 {
 
 .botaoAddResenha {
     background-color: #F2D4CA;
-    font-size: 100%;
+    color:black;
+    font-weight: bold;
+    padding: 10px 20px;
     border-radius: 20px;
-    width: 150px;
-    height: 50px;
+    margin-top: 2px;
+    margin-right: 5px;
+    margin-left: 50rem;
     cursor: pointer;
   }
 
