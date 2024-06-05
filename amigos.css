@@ -48,7 +48,9 @@ margin-top: 30px;
     margin-top: 20px;
 }
 
-
+.main {
+    border: 1px red solid;
+}
 
 .circuloPerfil {
 width: 156px;
