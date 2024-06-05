@@ -1,23 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
+body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "Montserrat", sans-serif;
-    background-color: #E7E7E7;
+    margin: 0;
+    background-color: #f5f5f5;
 }
-/* conteudo sidebar*/
+
 .sidebar {
     height: 100%;
     width: 250px;
@@ -106,7 +94,7 @@ nav a::after {
     margin-left: 10px;
 }
 
-/* conteudo da main*/
+
 
 main {
     display: flex;
@@ -122,80 +110,73 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     padding: 20px;
     background-color: white;
     border-radius: 8px;
+    margin-top: 5rem;
+    margin-left: 2rem;
 }
 
-.container h2 {
-    text-align: center;
+
+
+
+
+.criarClube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.criarClube h2 {
     margin-bottom: 20px;
-    color: gray;
+    color: #333;
 }
 
-.myform {
-    width: 100%;
-    margin-bottom: 10px;
-    
+.form-group {
+    margin-bottom: 15px;
+    width: 400px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.myform label {
-    display: block;
-    margin-bottom: 7px;
+.form-group p {
+    margin-bottom: 3px;
+    color: #333;
+    font-size: 0.8em;
     font-weight: bold;
 }
 
-.myform input {
-    width: calc(100% - 12px);
-    padding: 8px;
+.form-group input {
+    width: 350px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-textarea {
-    width: 94%;
-    height: 100px; /* Define a altura do textarea */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: vertical; /* Permite redimensionar verticalmente */
-}
-
-/* Estilo do botão */
-.btnConcluido{
-    width: calc(107% - 12px);
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold; /* Adiciona negrito à fonte */
-    color: black;
+.botaodeCriarClube {
     background-color: #F2D4CA;
+
+    color: black;
     border: none;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
+    transition: background-color 0.3s ease;
     text-decoration: none;
-    transition: background-color 0.3s, transform 0.3s;
-    margin-top: 5px;
+    align-items: center;
+    margin-top: 30px;
 }
 
-.btnConcluido:hover {
+.botaodeCriarClube:hover {
     background-color: gray;
-}
-
-.btn:active {
-    transform: scale(0.98);
-}
-
-.myform input {
-    width: calc(100% - 12px);
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.texto label{
-    font-weight: bold;
-    margin-bottom: 1rem;
 }
